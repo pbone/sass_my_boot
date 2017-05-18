@@ -2,17 +2,19 @@
 <!-- @defgroup sub_theming_sass -->
 <!-- @ingroup sub_theming -->
 
-# Mainly just do this:
+## This is my Version of this sub theme, using gulp/node to compile sass
+## Mainly just do this:
 ` bower install --save bootstrap-sass `
-# If you get this
+
+## If you get this
 `[15:34:06] Warning: gulp version mismatch:
 [15:34:06] Global gulp is 3.9.1
 [15:34:06] Local gulp is 3.9.0`
 
-# Do this
+## Do this
 ` npm install gulp@3.9.1 --save`
 
-# This is the Boiler plate that comes with the Starterkit/Sass Subtheme of the drupal Bootstrap theme
+below are the original Bootstrap Sass Subtheme instructions.
 
 # Sass Starterkit
 
