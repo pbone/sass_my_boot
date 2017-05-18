@@ -1,0 +1,17 @@
+{
+  "name": "sass_my_boot",
+  "description": "Sass Starterkit of Bootstrap Theme",
+  "main": "gulpfile.js",
+  "license": "ISC",
+  "homepage": "https://github.com/docksal/drupal8",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}

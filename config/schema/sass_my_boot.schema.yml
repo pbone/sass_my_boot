@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the THEMETITLE theme.
+
+sass_my_boot.settings:
+  type: theme_settings
+  label: 'sass_my_boot settings'

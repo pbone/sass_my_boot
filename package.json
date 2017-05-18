@@ -1,0 +1,19 @@
+{
+  "name": "sass_my_boot",
+  "version": "1.0.0",
+  "description": "Sass Starterkit of Bootstrap Theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-sass": "^3.1.0"
+  }
+}
