@@ -6,13 +6,20 @@
 ## Mainly just do this:
 ` bower install --save bootstrap-sass `
 
-## If you get this
+## If you get this...
 `[15:34:06] Warning: gulp version mismatch:
 [15:34:06] Global gulp is 3.9.1
 [15:34:06] Local gulp is 3.9.0`
 
 ## Do this
 ` npm install gulp@3.9.1 --save`
+
+cd into ../sass_my_boot and run the comand
+`gulp`
+
+To compile uncompressed css, with inline source maps, and 
+`gulp prod`
+for compressed css (no source maps)
 
 below are the original Bootstrap Sass Subtheme instructions.
 
