@@ -1,6 +1,19 @@
 <!-- @file Instructions for subtheming using the Sass Starterkit. -->
 <!-- @defgroup sub_theming_sass -->
 <!-- @ingroup sub_theming -->
+
+# Mainly just do this:
+` bower install --save bootstrap-sass `
+# If you get this
+`[15:34:06] Warning: gulp version mismatch:
+[15:34:06] Global gulp is 3.9.1
+[15:34:06] Local gulp is 3.9.0`
+
+# Do this
+` npm install gulp@3.9.1 --save`
+
+
+
 # Sass Starterkit
 
 Below are instructions on how to create a Bootstrap sub-theme using a Sass
