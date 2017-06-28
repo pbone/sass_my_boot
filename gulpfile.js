@@ -41,10 +41,15 @@ gulp.task('fonts', function() {
     // .pipe(gulp.dest(config.themeRoot + 'fonts'));
 });
 
-gulp.task('default', ['css', 'fonts']);
+gulp.task('default', ['css', 'fonts'], function() {
+    gulp.watch(['./scss/**/*.scss'], ['css']);
+});
 
 //gulp prod - for compressed, production ready css
-gulp.task('prod', ['css-c', 'fonts']);
+
+gulp.task('prod', ['css-c', 'fonts'], function() {
+    gulp.watch(['./scss/**/*.scss'], ['css']);
+});
 
 
 
