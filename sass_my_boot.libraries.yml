@@ -3,6 +3,17 @@ global-styling:
     theme:
       public/css/style.css: {}
 
+
+  js:
+    js/ScrollMagic.min.js: {}
+    js/animation.gsap.min.js: {}
+    js/TweenMax.min.js: {}
+    js/main.js: {}
+
+  dependencies:
+     - core/drupal
+     - core/jquery
+
 bootstrap-scripts:
   js:
     bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js: {}
@@ -17,3 +28,10 @@ bootstrap-scripts:
     bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js: {}
     bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js: {}
     bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js: {}
+
+
+
+
+
+
+

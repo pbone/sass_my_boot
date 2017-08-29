@@ -7959,3 +7959,56 @@ p:last-child,
   /* line 72, scss/_overrides.scss */
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
+
+/* line 79, scss/_overrides.scss */
+.main-container {
+  padding: 0px; }
+
+/* line 82, scss/_overrides.scss */
+.page-header {
+  padding-bottom: 0px; }
+
+/* line 88, scss/_overrides.scss */
+.block-block-content1a31ff52-7962-454d-8df9-e5a203d1e4ca, .block-block-content7976a221-c035-425f-b9f6-d04363e8e865 {
+  text-align: center;
+  padding: 10em;
+  font-size: 20px;
+  background-color: #204d74;
+  color: #fff; }
+
+/* line 98, scss/_overrides.scss */
+.parallax {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: 800px; }
+
+/* line 106, scss/_overrides.scss */
+.parallax__bg {
+  position: absolute;
+  width: 100%;
+  height: 140%; }
+
+/* line 112, scss/_overrides.scss */
+.parallax--parallax1 .parallax__bg {
+  background: url("/themes/sass_my_boot/images/parallax1.jpg"); }
+
+/* line 115, scss/_overrides.scss */
+.parallax--parallax2 .parallax__bg {
+  background: url("/themes/sass_my_boot/images/parallax2.jpg"); }
+
+/* line 120, scss/_overrides.scss */
+.parallax__content {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #fff; }
+  /* line 128, scss/_overrides.scss */
+  .parallax__content h2 {
+    margin: 0px;
+    font-size: 30px; }
+  /* line 132, scss/_overrides.scss */
+  .parallax__content p {
+    font-size: 20px; }
