@@ -3,13 +3,11 @@ global-styling:
     theme:
       public/css/style.css: {}
 
-
   js:
     js/ScrollMagic.min.js: {}
     js/animation.gsap.min.js: {}
     js/TweenMax.min.js: {}
     js/main.js: {}
-
   dependencies:
      - core/drupal
      - core/jquery
